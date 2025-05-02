@@ -16,11 +16,58 @@
 		text-align:center;
 		font-size:30px;
 		font-weight:bold;
+		box-shadow: 10px 10px 10px red;
 		//width: 120px;
 		 
  }
+ 
+ .AGS_button{
+	color:white;
+	background-color:red;
+	margin-left:10px;
+	margin-right:25px;
+	height:60px;
+	width:75px;
+	font-size:15px;
+	border-radius:10px;
+	cursor:pointer;
+	transition:opacity 0.15s;
+	transition:background-color 1s;
+	box-shadow: 10px 10px 10px red;
+	
+	}
+.AGS_button:hover{
+	background-color:green;
+	opacity:0.8;// makes the button transparent / lighter.
+	
+  }
+
   
-   .youtube_button{
+.ERM_button{
+		
+	color:white;
+	background-color:rgb(0,0,255);
+	cursor:pointer;
+	border-radius:10px;
+	height:60px;
+	width:75px;
+	margin-left:25px;
+	margin-right:25px;
+	font-family:cavolini;
+	font-size:15px;
+	transition:opacity 0.15s;
+	transition:background-color 1s;
+	box-shadow: 10px 10px 10px rgb(0,0,255);
+	}
+.ERM_button:hover{
+	background-color: blue;
+	opacity: 0.5;
+	//color: red;
+	
+}
+
+
+  .AP_button{
 	//background-color:red;
 	background-color:rgb(200,0,0);
 	color:white;
@@ -29,54 +76,64 @@
 	border:none;
 	height:60px;
 	width:75px;
+	margin-left:25px;
+	margin-right:25px;
+	border-radius:10px;
+	border-color:blue;
+	border-width:10px;
+	cursor:pointer;
+	transition:opacity 0.15s;
+	transition:background-color 1s;
+	box-shadow: 10px 10px 10px brown;
+	
+  }
+  
+  .AP_button:hover{
+  
+	background-color: blue;
+	opacity: 0.5;
+	color: yelow;
+  }
+  .AP_button:active{
+	background-color:blue;
+	 
+  }
+  
+ 
+   .LRC_button{
+	//background-color:red;
+	background-color:purple;
+	color:white;
+	font-family:cavolini;
+	font-size:15px;
+	border:none;
+	height:60px;
+	width:75px;
+	margin-left:25px;
+	margin-right:25px;
 	border-radius:5px;
 	border-color:blue;
 	border-width:10px;
 	cursor:pointer;
 	transition:opacity 0.15s;
 	transition:background-color 1s;
+	box-shadow: 10px 10px 10px purple;
 	
   }
   
-  .youtube_button:hover{
-	//background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
+  .LRC_button:hover{
+  
+	background-color: blue;
+	opacity: 0.5;
+	color: yelow;
   }
-  .youtube_button:active{
+  .LRC_button:active{
 	background-color:blue;
 	 
   }
   
-.google_button{
-		
-	color:white;
-	background-color:rgb(0,0,100);
-	cursor:pointer;
-	border-radius:10px;
-	height:60px;
-	width:75px;
-	margin-left:100px;
-	font-family:cavolini;
-	font-size:15px;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	}
-	
-.AGS_button{
-	background-color:orange;
-	color:white;
-	margin-left:90px;
-	height:60px;
-	width:75px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	
-	}
-	
+  
+  
 .paragraph1{
 	//border:solid green;
 	//border-bottom:dotted;
@@ -95,6 +152,7 @@
 	text-align:left;
 	//text-decoration:underline;
 	//text-transform:uppercase;
+	box-shadow: 10px 10px 10px blue;
 	
 }
  </style>
@@ -118,24 +176,24 @@ Web page will open in a new tab.
  </a>
 
 
-<!-- Google button -->
+<!-- EMR button -->
 <a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUqBwgEEAAYgAQyBwgAEAAYgAQyDQgBEC4YrwEYxwEYgAQyDQgCEC4YrwEYxwEYgAQyBggDEEUYOTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDINCAcQLhivARjHARiABDIHCAgQABiABDIHCAkQABiABNIBCTE0MDQ2ajBqNKgCALACAQ&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KZ-SzlBGGZ5UMZVsvbIJ6GU6&daddr=1817+N+Division+St,+Spokane,+WA+99207" target = "_blank">
-<button class="google_button">
+<button class="ERM_button">
 
 Emran Restaurant & Market
 
 </button>
 </a>
 
-<!-- Yahoo button -->
+<!-- Arbian Palance button -->
 <a href = "https://www.google.com/maps/dir//4902+E+Sprague+Ave+C,+Spokane+Valley,+WA+99212/@47.656751,-117.4208828,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x549e210064f892f1:0x89fc5ae9f5f22d8d!2m2!1d-117.3384823!2d47.6567805?entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D" target = "_blank">
- <button class = "yahoo_button">
- Arabian Palace
+ <button class = "AP_button">
+ Arabian Palace Restaurant
  </button>
  </a> 
 
 <a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUqDQgHEAAYkgMYgAQYigUyBwgAEAAYgAQyBggBEEUYOTINCAIQLhivARjHARiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDINCAYQABgKGBYYHhjJAzINCAcQABiSAxiABBiKBTIICAgQABgWGB4yCggJEAAYChgWGB7SAQkxNjgzMGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KWGwSQXgGZ5UMc0PbzMhPWpX&daddr=707+West+5th+Avenue+On,+S+Wall+St+side,+Spokane,+WA+99204" target= "_blank" > 
-<button class="google_button">
+<button class="LRC_button">
 	
 Lebanon Restaurant & Cafe
 	
@@ -150,7 +208,7 @@ Detail:.<br>
 2- Emran Restaurant & Market is managed by Nasrullah family, they are the first Afghani Restaurant in town. Their menue is full of authentic Afghani food.<br /><br />
 3- Lebanon Restaurant & Cafe is located in beautifull downtown Spokane. They offer Lebanoni food<br /><br />	
 4- Arabian Palace offers authentic Mediterranean food. <br /><br />	
-Updated on 5-01-2025 at 12:28 am.
+Updated on 5-01-2025 at 6:00 pm.
 </p>
 
 <hr>
