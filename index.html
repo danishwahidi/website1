@@ -5,373 +5,81 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  </head>
  <title>Starting something big!</title>
+ <link rel="stylesheet" href="css/style.css">
 
  <body>
  
- <style>
- .myPage{
-		font-family:courier;
-		color:red;
-		text-align:center;
-		font-size:30px;
-		font-weight:bold;
-		box-shadow: 10px 10px 10px red;
-		//width: 120px;
-		 
- }
  
- .AGS_button{
-	color:white;
-	background-color:red;
-	margin-left:10px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-.AGS_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-
-  
-.ERM_button{
-		
-	color:white;
-	background-color:rgb(0,0,255);
-	cursor:pointer;
-	border-radius:10px;
-	height:80px;
-	width:80px;
-	margin-left:25px;
-	margin-right:25px;
-	font-family:cavolini;
-	font-size:15px;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px rgb(0,0,255);
-	}
-.ERM_button:hover{
-	background-color: blue;
-	opacity: 0.5;
-	//color: red;
-	
-}
-
-
-  .AP_button{
-	//background-color:red;
-	background-color:rgb(200,0,0);
-	color:white;
-	font-family:cavolini;
-	font-size:15px;
-	border:none;
-	height:80px;
-	width:80px;
-	margin-left:25px;
-	margin-right:25px;
-	border-radius:10px;
-	border-color:blue;
-	border-width:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px brown;
-	
-  }
-  
-  .AP_button:hover{
-  
-	background-color: blue;
-	opacity: 0.5;
-	color: yelow;
-  }
-  .AP_button:active{
-	background-color:blue;
-	 
-  }
-  
-   .LRC_button{
-	color:white;
-	background-color:red;
-	margin-left:10px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:14px;
-	font-family:cavolini;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-.LRC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-  .MIF_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-.MIF_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-  
-    .IFS_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.IFS_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-.paragraph1{
-	//border:solid green;
-	//border-bottom:dotted;
-	border:3px;
-	border-style:double;
-	background-color: beige;
-	font-family:courier;
-	//font-size:large;
-	font-style:italic;
-	//font-variant:small-caps;
-	font-weight:bold;
-	
-	color:blue;
-	line-height:2;
-	//letter-spacing:1;
-	text-align:left;
-	//text-decoration:underline;
-	//text-transform:uppercase;
-	//box-shadow: 10px 10px 10px blue;
-	
-}
-
-.MIF_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-  
-    .WR_button{
-	color:white;
-	background-color:red;
-	margin-left:10px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.WR_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-      .WRCC_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.WRCC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-.IRC_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:14px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.IRC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
- </style>
  
  
  <p class = "myPage">
  My Pages Online now !
  </p>
  
-Click on button get GPS / directions to that place.<br>
+Click on button to get GPS / directions to that place.<br>
 Web page will open in a new tab.
 <hr>
 
-&nbsp;&nbsp;&nbsp;
-Halal Food Restaurant & Stores.
-<br />
-<br />
-<!--  Afghani Grocery Store button -->
-
-<a href = "https://www.google.com/maps/dir//3004+N+Monroe+St,+Spokane,+WA+99205/@47.6851036,-117.5087916,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x549e19108a156a8d:0xd7e9695b2f35da6f!2m2!1d-117.4264868!2d47.6851201?entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
- <button class="AGS_button">
- 
- Afghani Grocery Store
- 
- </button>
- </a>
 
 
-<!-- EMR button -->
-<a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUqBwgEEAAYgAQyBwgAEAAYgAQyDQgBEC4YrwEYxwEYgAQyDQgCEC4YrwEYxwEYgAQyBggDEEUYOTIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDINCAcQLhivARjHARiABDIHCAgQABiABDIHCAkQABiABNIBCTE0MDQ2ajBqNKgCALACAQ&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KZ-SzlBGGZ5UMZVsvbIJ6GU6&daddr=1817+N+Division+St,+Spokane,+WA+99207" target = "_blank">
-<button class="ERM_button">
-
-Emran Restaurant & Market
-
-</button>
-</a>
-
-<!-- Arbian Palance button -->
-<a href = "https://www.google.com/maps/dir//4902+E+Sprague+Ave+C,+Spokane+Valley,+WA+99212/@47.656751,-117.4208828,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x549e210064f892f1:0x89fc5ae9f5f22d8d!2m2!1d-117.3384823!2d47.6567805?entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D" target = "_blank">
- <button class = "AP_button">
- Arabian Palace Restaurant
- </button>
- </a> 
- 
-<br />
-<br />
-<br />
-
-<a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUqDQgHEAAYkgMYgAQYigUyBwgAEAAYgAQyBggBEEUYOTINCAIQLhivARjHARiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDINCAYQABgKGBYYHhjJAzINCAcQABiSAxiABBiKBTIICAgQABgWGB4yCggJEAAYChgWGB7SAQkxNjgzMGowajeoAgCwAgA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KWGwSQXgGZ5UMc0PbzMhPWpX&daddr=707+West+5th+Avenue+On,+S+Wall+St+side,+Spokane,+WA+99204" target= "_blank" > 
-<button class="LRC_button">
-	
-Lebanon Restaurant & Cafe
-	
-</button>
-</a>
-
-
-<a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABgIGA0YHjIKCAIQABiABBiiBDIKCAMQABiiBBiJBTIKCAQQABiABBiiBDIKCAUQABiABBiiBDIHCAYQABjvBdIBCTE1NTExajBqN6gCALACAA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KcONU1M3GZ5UMYppqob6UX51&daddr=116+E+Wellesley+Ave,+Spokane,+WA+99207" target= "_blank" > 
-<button class="MIF_button">
-	
-Mariam Int Foods
-	
-</button>
-</a>
-
-
-<a href = "https://www.google.com/maps/dir//3021+E+Mission+Ave,+Spokane,+WA+99202/@47.6722157,-117.4486757,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x549e18b5aa7870e1:0x4ecb062a994b741!2m2!1d-117.3662868!2d47.6721612?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target= "_blank" > 
-<button class="IFS_button">
-	
-Int Foods Store
-	
-</button>
-</a>
-
-<hr>
-
-<p class="paragraph1">
-Detail:.<br>
-1- Afghani Grocery Store is managed by Mishwani Family. They offer Afghani fresh bread, leek, dried yogurt , qorot, and much much more.<br /><br />
-2- Emran Restaurant & Market is managed by Nasrullah family, they are the first Afghani Restaurant in town. Their menu is full of authentic Afghani food.<br /><br />
-3- Lebanon Restaurant & Cafe is located in beautiful downtown Spokane. They offer Lebanonese foods.<br /><br />	
-4- Arabian Palace offers authentic Mediterranean food. <br /><br />	
-Updated on 5-02-2025 at 2:00 pm.
-</p>
- 
 <hr />
 <br />
 &nbsp;&nbsp;&nbsp; Refugee Resettlement Agencies:
 <br /><br />
 
-<a href = "https://www.google.com/maps/dir//11707+E+Sprague+Ave+Suite+106,+Spokane+Valley,+WA+99206/@47.6577248,-117.3303081,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x549e18fa9d4d9aff:0x829f5759177ceda7!2m2!1d-117.2479139!2d47.6576755?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D" target= "_blank" > 
-<button class="WR_button">
+<a href = "agencies.html" target= "_blank" > 
+<button class="RRA_button">
 	
-World Reflief Spokane
-	
-</button>
-</a>
-
-<a href = "https://www.google.com/maps?s=web&rlz=1C1GCEA_enUS1133US1133&lqi=ChpDT1ZFTkFOVCBDSFVSQ0ggT0YgU1BPS0FORUir3-TdpbaAgAhaJhAAEAEYABgBGAMiGmNvdmVuYW50IGNodXJjaCBvZiBzcG9rYW5lkgEGY2h1cmNomgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVE1YldGNk0wTlJFQUWqAVgQASoTIg9jb3ZlbmFudCBjaHVyY2goADIfEAEiG4q76n1rVf5tX4hGhv2kqlx_jRFDZEgdkCSvrTIeEAIiGmNvdmVuYW50IGNodXJjaCBvZiBzcG9rYW5l4AEA-gEECAAQPg&vet=12ahUKEwjWht-x-4SNAxXVJDQIHeX0ASUQ1YkKegQIGxAB..i&cs=1&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=KR3P9qisGZ5UMXekjbEoNrW2&daddr=512+S+Bernard+St,+Spokane,+WA+99204" target= "_blank" > 
-<button class="WRCC_button">
-	
-World Reflief Spokane (CC)
+Refugee Resettlement Agenceis
 	
 </button>
 </a>
 
-<a href = "https://www.google.com/maps?rlz=1C1GCEA_enUS1133US1133&gs_lcrp=EgZjaHJvbWUqGAgCEC4YQxjHARixAxjJAxjRAxiABBiKBTIGCAAQRRg5MhIIARAuGEMYrwEYxwEYgAQYigUyGAgCEC4YQxjHARixAxjJAxjRAxiABBiKBTIYCAMQLhhDGIMBGMcBGLEDGNEDGIAEGIoFMhIIBBAAGEMYgwEYsQMYgAQYigUyEggFEAAYQxiDARixAxiABBiKBTITCAYQLhiDARjHARixAxjRAxiABDIHCAcQABiABDIHCAgQABiABNIBCDM2MTlqMGo3qAIAsAIA&um=1&ie=UTF-8&fb=1&gl=us&sa=X&geocode=Ke1juFy9GZ5UMV8uwvDuEWtC&daddr=925+W+Montgomery+Ave,+Spokane,+WA+99205" target= "_blank" > 
-<button class="IRC_button">
+
+<a href = "local_mosques.html" target= "_blank" > 
+<button class="MJ_button">
 	
-Int Rescue Committee
-(IRC)
+Local Mosques & Jafaria
 	
 </button>
 </a>
 
 <hr>
+
+<a href = "halal_restaurants&stores.html" target= "_blank" > 
+<button class="MJ_button">
+	
+Hala Restaurants & Stores
+	
+</button>
+</a>
+
+<a href = "travelloan.html" target= "_blank" > 
+<button class="MJ_button">
+	
+IOM Travel Loan
+	
+</button>
+</a>
+
+<hr>
+
+
+<hr>
+
+<p class="paragraph1">
+Detail:.<br>
+1- Afghani Grocery Store is managed by Mishwani Family. They offer Afghani fresh bread, leek, dried yougurt , qorot, and much much more.<br /><br />
+2- Emran Restaurant & Market is managed by Nasrullah family, they are the first Afghani Restaurant in town. Their menue is full of authentic Afghani food.<br /><br />
+3- Lebanon Restaurant & Cafe is located in beautifull downtown Spokane. They offer Lebanoni food<br /><br />	
+4- Arabian Palace offers authentic Mediterranean food. <br /><br />	
+Updated on 5-03-2025 at 10:21 pm.
+</p>
+ 
+
+
 Contact us: <br />
+	<a href = "contact.html"> Contact </a><br>
 	 Email: <br />
 	 Phone: <br />
 <hr />	 
