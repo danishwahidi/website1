@@ -5,12 +5,7 @@ body {
      margin: 0;
      background-color: #f9f9f9;
    }
-   .myPage {
-     font-size: 1.2rem;
-     font-weight: bold;
-     text-align: center;
-     margin-bottom: 1rem;
-   }
+   
    .button-wrapper {
      display: flex;
      flex-direction: column;
@@ -29,6 +24,7 @@ body {
    }
    button:hover {
      background-color: #0056b3;
+	 font-family:sans-serif;
    }
    .paragraph1 {
      font-size: 0.95rem;
@@ -41,7 +37,7 @@ body {
    hr {
      margin: 2rem 0;
    }
-</style>
+ 
 .newWR_button {
  display: inline-block;
  padding: 10px 20px;
@@ -222,27 +218,7 @@ body {
 	
   }
   
-      .WRCC_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.WRCC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
+   
   
 .IRC_button{
 	color:white;
@@ -289,7 +265,7 @@ body {
 	
   }
   
-  /* Local Mosque and Jafaria Button*/
+ 
   
   /* Refugee Resettlement Button*/
   .MJ_button{
@@ -314,14 +290,7 @@ body {
 	
   }
   
-   .myPage {
-     font-family: Courier, monospace;
-     color: red;
-     text-align: center;
-     font-size: 30px;
-     font-weight: bold;
-     box-shadow: 10px 10px 10px red;
-   }
+ 
    .WR_button, .WRCC_button, .IRC_button {
      color: white;
      background-color: red;
@@ -342,25 +311,7 @@ body {
    }
    
    
-   .HRS_button{
-     color: white;
-     background-color: green;
-     margin: 10px 25px;
-     height: 90px;
-     width: 90px;
-     font-size: 12px;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: opacity 0.15s, background-color 1s;
-     box-shadow: 10px 10px 10px green;
-   }
-   
-   .HRS_button:hover,
-   .AP_button:hover,
-   .DMEGS_button:hover {
-     background-color: darkgreen;
-     opacity: 0.8;
-   }
+
    
    /* Halal Restaurant & Store Button*/
    .AP_button {
@@ -370,6 +321,7 @@ body {
      height: 90px;
      width: 90px;
      font-size: 12px;
+	 font-family:cavolini;
      border-radius: 10px;
      cursor: pointer;
      transition: opacity 0.15s, background-color 1s;
@@ -380,19 +332,115 @@ body {
      opacity: 0.8;
    }
    
-    /* Halal Restaurant & Store Button*/
-   .DMEGS_button {
+   
+   /* ------------------------------------------------*/
+	/* style for the tope line "My Pages Online now!*/
+     .myPage {
+     font-family: Courier, monospace;
+     color: rgb(200,0,200);
+     text-align: center;
+     font-size: 35px;
+     font-weight: bold;
+     box-shadow: 10px 10px 10px rgb(255,0,0);
+   }
+   
+  /* Refugee Resettlement Button*/
+  .index_button{
+	color:white;
+	background-color:rgb(200,0,200);
+	margin-left:25px;
+	margin-right:25px;
+	height:100px;
+	width:100px;
+	font-size:14px;
+	font-family:cavolini;
+	font-weight: bold;
+	border-radius:20px;
+	cursor:pointer;
+	transition:opacity 0.15s;
+	transition:background-color 1s;
+	box-shadow: 10px 10px 10px rgb(255,0,0);
+	float:center;
+	
+	}
+.index_button:hover{
+	background-color:rgb(200,0,200);
+	opacity:0.8;// makes the button transparent / lighter.
+	font-size:12px;
+	font-family:cavolini;
+	
+  }
+    .index-wrapper {
+     display: flex;
+     flex-direction: center;
+     gap: 1rem;
+     margin: 1rem 0;
+   }
+   
+  /* Agencies buttons*/
+    .agency_button{
+	color:white;
+	background-color:rgb(200,0,200);
+	margin-left:25px;
+	margin-right:25px;
+	height:100px;
+	width:100px;
+	font-size:14px;
+	font-family:cavolini;
+	font-weight: bold;
+	border-radius:20px;
+	//border: thick double rgb(100,100,100);
+	cursor:pointer;
+	transition:opacity 0.15s;
+	transition:background-color 1s;
+	box-shadow: 10px 10px 10px rgb(255,0,0);
+	float:center;
+	letter-spacing:1px;
+	
+	writing-mode: horizontal-tb;
+	direction: center;
+	
+	}
+.agency_button:hover{
+	background-color:rgb(200,0,200);
+	opacity:0.8;// makes the button transparent / lighter.
+	
+  }
+  
+     .hrs_button{
      color: white;
-     background-color: green;
+     background-color: rgb(200,0,0);
      margin: 10px 25px;
      height: 90px;
      width: 90px;
-     font-size: 10px;
+     font-size: 12px;
      border-radius: 10px;
      cursor: pointer;
      transition: opacity 0.15s, background-color 1s;
-     box-shadow: 10px 10px 10px green;
-	 align:center;
+     box-shadow: 10px 10px 10px red;
    }
    
+   .hrs_button:hover {
+     background-color: darkgreen;
+     opacity: 0.8;
+   }
+   
+  .mj_button{
+     color: white;
+     background-color: rgb(110,200,10);
+     margin: 10px 25px;
+     height: 90px;
+     width: 90px;
+     font-size: 12px;
+     border-radius: 15px;
+     cursor: pointer;
+     transition: opacity 0.15s, background-color 1s;
+     box-shadow: 10px 10px 10px red;
+   }
+   
+   .mj_button:hover {
+     background-color: darkgreen;
+     opacity: 0.8;
+   }
+  
 </style>
