@@ -1,0 +1,68 @@
+
+
+body {
+     font-family: sans-serif;
+     padding: 1rem;
+     margin: 0;
+     background-color: #f9f9f9;
+   }
+
+  .myPage {
+     font-family: Courier, monospace;
+     color: rgb(200,0,200);
+     text-align: center;
+     font-size: 35px;
+     font-weight: bold;
+     box-shadow: 10px 10px 10px rgb(255,0,0);
+   }
+   
+   .paragraph1{
+
+	border:3px;
+	border-style:double;
+	background-color: white;
+	font-family:courier;
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	line-height:2;
+	text-align:left;
+
+	
+}
+.mosque_jafaria_page_background{
+	
+	background-color: #AFEEEE;
+}
+  .mosque_jafaria_button{
+    color: purple;
+    // background-color: rgb(200,200,200);
+	//background-color:#87CEFA;
+	background-color:#AFEEEE;
+    //margin: 10px 25px;
+	margin-right:5px;
+    height: 85px;
+    width: 95px;
+	letter-spacing: 1px;
+	padding-left:10px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+    font-size: 12px;
+	font-weight: bold;
+	//font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s, background-color 1s;
+    box-shadow: 10px 10px 10px purple;
+	//vertical-align:top;
+	font-family: Courier, monospace;
+	
+   }
+   
+   .mosque_jafaria_button:hover {
+     background-color: darkgreen;
+     opacity: 0.8;
+   }
+
+}

@@ -1,4 +1,5 @@
 <style>
+
 body {
      font-family: sans-serif;
      padding: 1rem;
@@ -12,20 +13,8 @@ body {
      gap: 1rem;
      margin: 1rem 0;
    }
-   button {
-     width: 100%;
-     padding: 1rem;
-     font-size: 1rem;
-     background-color: #007BFF;
-     color: white;
-     border: none;
-     border-radius: 6px;
-     cursor: pointer;
-   }
-   button:hover {
-     background-color: #0056b3;
-	 font-family:sans-serif;
-   }
+   
+  
    .paragraph1 {
      font-size: 0.95rem;
      line-height: 1.5;
@@ -38,135 +27,7 @@ body {
      margin: 2rem 0;
    }
  
-.newWR_button {
- display: inline-block;
- padding: 10px 20px;
- background-color: #007bff;
- color: white;
- text-decoration: none;
- border-radius: 5px;
- font-weight: bold;
-}
- 
- .AGS_button{
-	color:white;
-	background-color:red;
-	margin-left:10px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-.AGS_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
 
-  
-.ERM_button{
-		
-	color:white;
-	background-color:rgb(0,0,255);
-	cursor:pointer;
-	border-radius:10px;
-	height:80px;
-	width:80px;
-	margin-left:25px;
-	margin-right:25px;
-	font-family:cavolini;
-	font-size:15px;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px rgb(0,0,255);
-	}
-.ERM_button:hover{
-	background-color: blue;
-	opacity: 0.5;
-	//color: red;
-	
-}
-
-
-  .AP_button{
-	//background-color:red;
-	background-color:rgb(200,0,0);
-	color:white;
-	font-family:cavolini;
-	font-size:15px;
-	border:none;
-	height:80px;
-	width:80px;
-	margin-left:25px;
-	margin-right:25px;
-	border-radius:10px;
-	border-color:blue;
-	border-width:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px brown;
-	
-  }
-  
-  .AP_button:hover{
-  
-	background-color: blue;
-	opacity: 0.5;
-	color: yelow;
-  }
-  .AP_button:active{
-	background-color:blue;
-	 
-  }
-  
-   .LRC_button{
-	color:white;
-	background-color:red;
-	margin-left:10px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:14px;
-	font-family:cavolini;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-.LRC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-  .MIF_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:15px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	
-	}
-
-  
-  
-   
 .paragraph1{
 	//border:solid green;
 	//border-bottom:dotted;
@@ -188,6 +49,12 @@ body {
 	//box-shadow: 10px 10px 10px blue;
 	
 }
+
+.agency_page_background{
+	
+	background-color: green;
+}
+
 
 .MIF_button:hover{
 	background-color:green;
@@ -212,126 +79,9 @@ body {
 	//float:left;
 	
 	}
-.WR_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-   
-  
-.IRC_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:80px;
-	width:80px;
-	font-size:14px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.IRC_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
-  /* Refugee Resettlement Button*/
-  .RRA_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:100px;
-	width:100px;
-	font-size:14px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.RRA_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
- 
-  
-  /* Refugee Resettlement Button*/
-  .MJ_button{
-	color:white;
-	background-color:red;
-	margin-left:25px;
-	margin-right:25px;
-	height:100px;
-	width:100px;
-	font-size:14px;
-	border-radius:10px;
-	cursor:pointer;
-	transition:opacity 0.15s;
-	transition:background-color 1s;
-	box-shadow: 10px 10px 10px red;
-	//float:left;
-	
-	}
-.MJ_button:hover{
-	background-color:green;
-	opacity:0.8;// makes the button transparent / lighter.
-	
-  }
-  
- 
-   .WR_button, .WRCC_button, .IRC_button {
-     color: white;
-     background-color: red;
-     margin: 10px 25px;
-     height: 80px;
-     width: 80px;
-     font-size: 14px;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: opacity 0.15s, background-color 1s;
-     box-shadow: 10px 10px 10px red;
-   }
-   .WR_button:hover,
-   .WRCC_button:hover,
-   .IRC_button:hover {
-     background-color: green;
-     opacity: 0.8;
-   }
-   
-   
 
-   
-   /* Halal Restaurant & Store Button*/
-   .AP_button {
-     color: white;
-     background-color: green;
-     margin: 10px 25px;
-     height: 90px;
-     width: 90px;
-     font-size: 12px;
-	 font-family:cavolini;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: opacity 0.15s, background-color 1s;
-     box-shadow: 10px 10px 10px green;
-   }
-   .AP_button:hover {
-     background-color: darkgreen;
-     opacity: 0.8;
-   }
-   
+  
+
    
    /* ------------------------------------------------*/
 	/* style for the tope line "My Pages Online now!*/
@@ -347,9 +97,12 @@ body {
   /* Refugee Resettlement Button*/
   .index_button{
 	color:white;
-	background-color:rgb(200,0,200);
+	background-color:rgb(255,0,0);
 	margin-left:25px;
 	margin-right:25px;
+	padding-top:05px;
+	padding-bottom:05px;
+	letter-spacing:1px;
 	height:100px;
 	width:100px;
 	font-size:14px;
@@ -380,25 +133,43 @@ body {
   /* Agencies buttons*/
     .agency_button{
 	color:white;
-	background-color:rgb(200,0,200);
-	margin-left:25px;
-	margin-right:25px;
-	height:100px;
-	width:100px;
+	//background-color:rgb(200,0,200);
+	 
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	text-align:center;
+	
+	//height:90px;
+	//width:100px;
+	width: fit-content;
+	
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
 	font-size:14px;
 	font-family:cavolini;
 	font-weight: bold;
+
 	border-radius:20px;
 	//border: thick double rgb(100,100,100);
 	cursor:pointer;
 	transition:opacity 0.15s;
 	transition:background-color 1s;
 	box-shadow: 10px 10px 10px rgb(255,0,0);
-	float:center;
+	//float:center;
 	letter-spacing:1px;
+	//display: flex;
+	justify-content: center;
+    flex-direction: column;
+	letter-spacing: 2px;
 	
-	writing-mode: horizontal-tb;
-	direction: center;
+	//writing-mode: horizontal-tb;
+	//direction: center;
+	vertical-align:top;
+	line-height:15px;
 	
 	}
 .agency_button:hover{
@@ -407,27 +178,11 @@ body {
 	
   }
   
-     .hrs_button{
-     color: white;
-     background-color: rgb(200,0,0);
-     margin: 10px 25px;
-     height: 90px;
-     width: 90px;
-     font-size: 12px;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: opacity 0.15s, background-color 1s;
-     box-shadow: 10px 10px 10px red;
-   }
-   
-   .hrs_button:hover {
-     background-color: darkgreen;
-     opacity: 0.8;
-   }
+  
    
   .mj_button{
      color: white;
-     background-color: rgb(110,200,10);
+     background-color: rgb(255,250,10);
      margin: 10px 25px;
      height: 90px;
      width: 90px;
@@ -436,6 +191,7 @@ body {
      cursor: pointer;
      transition: opacity 0.15s, background-color 1s;
      box-shadow: 10px 10px 10px red;
+	 
    }
    
    .mj_button:hover {
