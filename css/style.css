@@ -51,6 +51,13 @@ body {
 }
 
 
+
+
+.agency_page_background{
+	
+	background-color: green;
+}
+
 .container {
      text-align: center;
      padding: 10px;
@@ -61,12 +68,6 @@ body {
      height: auto;
      margin-bottom: 20px;
    }
-
-
-.agency_page_background{
-	
-	background-color: green;
-}
 
 
 .MIF_button:hover{
