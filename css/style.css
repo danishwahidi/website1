@@ -50,6 +50,19 @@ body {
 	
 }
 
+
+.container {
+     text-align: center;
+     padding: 10px;
+   }
+   .responsive-img {
+     width: 90%;
+     max-width: 600px;
+     height: auto;
+     margin-bottom: 20px;
+   }
+
+
 .agency_page_background{
 	
 	background-color: green;
