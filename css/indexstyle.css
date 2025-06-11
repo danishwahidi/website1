@@ -67,7 +67,7 @@ body {
    
   /* Refugee Resettlement Button*/
   .indexbutton{
-	  color:blue;
+	  color:white;
 	  //background-color:rgb(255,0,0);
 	  background-color:#87CEEB;
 	 // margin-left:25px;
@@ -103,7 +103,7 @@ body {
    }
   .button{
 	  
-	color:white;
+	color:blue;
 	background-color:rgb(255,0,0);
 	margin-left:25px;
 	margin-right:25px;
