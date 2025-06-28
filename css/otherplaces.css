@@ -5,6 +5,8 @@ body {
      margin: 0;
      background-color: #f9f9f9;
 	 margin: 2rem 0;
+	  background: linear-gradient(to right, #87CEEB, #e0f7fa);
+
    }
     .myPage {
      font-family: Courier, monospace;
@@ -17,7 +19,17 @@ body {
 .agency_page_background{
 	
 	//background-color:rgb(240,200,250);
-	background-color:#D3D3D3;
+	//background-color:#D3D3D3;
+}
+
+.contentname{
+	color:black;
+	 font-family: Courier, monospace;
+	 font-size:25px;
+	 font-weight:bold;
+	 text-align:center;
+	
+	
 }
 .agencybutton{
 	
@@ -54,9 +66,9 @@ body {
   }
   
 table, th, td {
-   color:blue;
+   color:black;
    border: 1px solid black;
-   background-color: #96D4D4;
+  // background-color: #96D4D4;
    padding: 5px;
    border-spacing: 10px;
    border-radius: 10px;

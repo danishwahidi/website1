@@ -1,0 +1,82 @@
+
+body {
+     font-family: sans-serif;
+     padding: 1rem;
+     margin: 0;
+	 background: linear-gradient(to right, #87CEEB, #e0f7fa);
+    
+   }
+
+ .myPage {
+     font-family: Courier, monospace;
+     color: rgb(200,0,200);
+     text-align: center;
+     font-size: 35px;
+     font-weight: bold;
+     box-shadow: 10px 10px 10px rgb(255,0,0);
+	 position: sticky;
+	 top: 0;
+	 width: fit-content; /* or use a fixed width like 60% */
+	 margin: 0 auto;
+	 z-index: 1;
+   }
+   
+  
+  .contentname{
+	  
+	font-size:25px;
+	font-family: Courier, monospace;
+	font-weight:bold;
+	text-align:center;
+  }
+   .paragraph1{
+
+	border:5px;
+	border-style:solid;
+	background-color: white;
+	font-family:courier;
+	font-style:italic;
+	font-weight:bold;
+	color:blue;
+	line-height:2;
+	text-align:left;
+	border-radius: 15px;
+	
+}
+ 
+  .hrs_button{
+    color:Black;
+ 	background-color:#87CEFA;
+	margin-right:5px;
+    height: 75px;
+    width: 85px;
+	letter-spacing: 2px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+    font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.15s, background-color 1s;
+    box-shadow: 10px 10px 10px white;
+ 	
+   }
+   
+   .hrs_button:hover {
+     background-color: white;
+     opacity: 0.8;
+   }
+
+table, th, td {
+   color:black;
+   border: 2px solid black;
+   border-color:black;
+   padding: 5px;
+   border-spacing: 10px;
+   border-radius: 10px;
+   border-style: solid;
+   font-family: Courier, monospace;
+}

@@ -5,7 +5,7 @@ body {
      padding: 1rem;
      margin: 0;
     // background-color: #f9f9f9;
-	 background: linear-gradient(to right, #87CEEB, #e0f7fa);
+	  background: linear-gradient(to right, #87CEEB, #e0f7fa);
    }
 
   .myPage {
@@ -15,23 +15,21 @@ body {
      font-size: 35px;
      font-weight: bold;
      box-shadow: 10px 10px 10px rgb(255,0,0);
-   }
-   
-   .contentname{
-	   color:black;
-	   font-family: 'Courier New', Courier, monospace;
-	   font-weight:bold;
-	   font-size:25px;
-   }
-   
-   .myPageDiv {
- position: sticky;
+	   position: sticky;
  top: 0;
  width: fit-content; /* or use a fixed width like 60% */
  margin: 0 auto;
  z-index: 1;
-}
-
+   }
+   
+  
+  .contentname{
+	  
+	   font-size:25px;
+	    font-family: Courier, monospace;
+		font-weight:bold;
+  }
+   
    .paragraph1{
 
 	border:3px;
@@ -46,39 +44,51 @@ body {
 
 	
 }
-.mosque_jafaria_page_background{
+.halalRest_Store_page_background{
 	
-	background-color: #AFEEEE;
+	background-color: #87CEFA;
 }
-  .mosque_jafaria_button{
-    color: purple;
+  .hrs_button{
+    color: red;
     // background-color: rgb(200,200,200);
-	//background-color:#87CEFA;
-	background-color:#AFEEEE;
+	background-color:#87CEFA;
     //margin: 10px 25px;
 	margin-right:5px;
-    height: 85px;
-    width: 95px;
-	letter-spacing: 1px;
+    height: 75px;
+    width: 85px;
+	letter-spacing: 2px;
 	padding-left:10px;
-	padding-right:15px;
+	padding-right:10px;
 	padding-top:5px;
 	padding-bottom:5px;
-    font-size: 12px;
+    font-size: 15px;
 	font-weight: bold;
-	//font-family: sans-serif;
+	font-family: sans-serif;
     border-radius: 10px;
     cursor: pointer;
     transition: opacity 0.15s, background-color 1s;
-    box-shadow: 10px 10px 10px purple;
+    box-shadow: 10px 10px 10px red;
 	//vertical-align:top;
-	font-family: Courier, monospace;
 	
    }
    
-   .mosque_jafaria_button:hover {
+   .hrs_button:hover {
      background-color: darkgreen;
      opacity: 0.8;
    }
 
+
+
+table, th, td {
+   color:black;
+   //font-weight: bold;
+   border: 2px solid black;
+   border-color:black;
+  // background-color: #87CEFA;
+   padding: 5px;
+   border-spacing: 10px;
+   border-radius: 10px;
+   border-style: solid;
+   font-family: Courier, monospace;
 }
+

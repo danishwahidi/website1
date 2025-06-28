@@ -29,45 +29,22 @@ body {
  
 
 .paragraph1{
-	//border:solid green;
-	//border-bottom:dotted;
+	
 	border:3px;
 	border-style:double;
 	background-color: beige;
 	font-family:courier;
-	//font-size:large;
 	font-style:italic;
-	//font-variant:small-caps;
 	font-weight:bold;
-	
 	color:blue;
 	line-height:2;
-	//letter-spacing:1;
-	text-align:left;
-	//text-decoration:underline;
-	//text-transform:uppercase;
-	//box-shadow: 10px 10px 10px blue;
-	
+	text-align:left;	
 }
-
-
-
 
 .agency_page_background{
 	
 	background-color: green;
 }
-
-.container {
-     text-align: center;
-     padding: 10px;
-   }
-   .responsive-img {
-     width: 90%;
-     max-width: 600px;
-     height: auto;
-     margin-bottom: 20px;
-   }
 
 
 .MIF_button:hover{
@@ -153,35 +130,23 @@ body {
 	margin-right:10px;
 	margin-bottom:10px;
 	text-align:center;
-	
-	//height:90px;
-	//width:100px;
 	width: fit-content;
-	
 	padding-left:10px;
 	padding-right:10px;
 	padding-top:10px;
 	padding-bottom:10px;
-	
 	font-size:14px;
 	font-family:cavolini;
 	font-weight: bold;
-
 	border-radius:20px;
-	//border: thick double rgb(100,100,100);
 	cursor:pointer;
 	transition:opacity 0.15s;
 	transition:background-color 1s;
 	box-shadow: 10px 10px 10px rgb(255,0,0);
-	//float:center;
 	letter-spacing:1px;
-	//display: flex;
 	justify-content: center;
     flex-direction: column;
 	letter-spacing: 2px;
-	
-	//writing-mode: horizontal-tb;
-	//direction: center;
 	vertical-align:top;
 	line-height:15px;
 	
@@ -192,8 +157,6 @@ body {
 	
   }
   
-  
-   
   .mj_button{
      color: white;
      background-color: rgb(255,250,10);
